@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://mern-hotel-backend-bzpz.onrender.com",
+        "https://mern-hotel-backend-b9pn.onrender.com",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
